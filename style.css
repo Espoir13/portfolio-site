@@ -59,3 +59,28 @@ footer p {
     color: #fff;
     font-size: 1rem;
 }
+
+.project {
+    background-color: #1e1e1e;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(255, 64, 129, 0.2);
+}
+
+.project img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.project h3 {
+    color: #ff4081;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 1rem;
+    color: #ccc;
+}
