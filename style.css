@@ -1,6 +1,20 @@
 /* Fonts */
+@font-face {
+  font-family: 'Canela';
+  src: url('fonts/CanelaCondensed-Bold-Trial.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('fonts/Satoshi-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Satoshi', sans-serif;
   margin: 0;
   background: #111 url('textures/noise-texture.png') repeat;
   color: #fff;
@@ -38,7 +52,7 @@ section, header {
   margin: auto;
 }
 h1, h2 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Canela', serif;
   color: #ffb347;
 }
 
